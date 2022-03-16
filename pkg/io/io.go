@@ -64,10 +64,10 @@ func ReadInput() (*InputData, error) {
 }
 
 type OutputData struct {
-	EncryptedData []byte `json:"encrypted_data"`
+	EncryptedData string `json:"encrypted_data"`
 }
 
-func WriteOutput(encrypted []byte) error {
+func WriteOutput(encrypted string) error {
 	log.Println("[IO::WriteOutput] writing output...")
 
 	fileName, err := getOutputFile()
