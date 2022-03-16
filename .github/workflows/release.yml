@@ -2,9 +2,7 @@ name: Release binaries
 
 on:
   push:
-    branches: [main]
-  merge:
-    branches: [main]   
+    branches: [main]  
 
 jobs:
   releases-matrix:
