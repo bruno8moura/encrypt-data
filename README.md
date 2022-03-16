@@ -1,3 +1,3 @@
 
 ### RUN ###
-![Application](./project_images/encrypt_data.gif)
+![Application](./assets/encrypt_data.gif)
